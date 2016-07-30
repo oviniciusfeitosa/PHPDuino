@@ -1,6 +1,6 @@
 {
   "name": "phpduino/phpduino",
-  "description": "Helps to send/receive information for an Arduino device or parallels.",
+  "description": "This tool helps to send/receive information for an Arduino device or parallels, using usb port(initially of course)",
   "keywords": [
     "arduino",
     "php"
