@@ -5,7 +5,6 @@ namespace PHPDuino;
 use Exception;
 
 /**
- * Created by PhpStorm.
  * User: vinnyfs89
  * Date: 29/07/16
  * Time: 18:31

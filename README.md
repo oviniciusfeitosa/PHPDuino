@@ -13,3 +13,21 @@ Below we have some steps to check and make basic configs to use PHPDuino:
 - Give permission to read and write in your USB port location. Example: `$ sudo chmod 770 /dev/cu.usbmodem1411`
 - You will need to know the speed of communication with USB port that will be used between the Arduino Board and Application, like 9000 or 16000, for example.
 - In some cases is necessary to use an capacitor of 10u between Reset PIN and Ground Pin to works well. 
+
+Example 1 - Sending content
+---------------------------
+
+
+    $accessPort = "/dev/cu.usbmodem1411";
+    $objPHPDuino = new \PHPDuino\PHPDuino($accessPort);
+    $objPHPDuino->sendContentToDevice("Hello");
+
+Example 2 - Getting content
+---------------------------
+
+
+    $accessPort = "/dev/cu.usbmodem1421";
+    $speedPort = 9600;
+    $objPHPDuino = new \PHPDuino\PHPDuino($accessPort, $speedPort);
+    var_dump($objPHPDuino->getContentFromDevice());
+
