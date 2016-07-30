@@ -1,0 +1,26 @@
+{
+  "name": "phpduino/phpduino",
+  "description": "Helps to send/receive information for an Arduino device or parallels.",
+  "keywords": [
+    "arduino",
+    "php"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vinícius Feitosa da Silva",
+      "email": "viniciusfesil@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8|^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PHPDuino\\": "src/"
+    }
+  }
+}
