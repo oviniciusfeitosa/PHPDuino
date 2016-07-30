@@ -1,4 +1,4 @@
-Class PHPDuino
+PHPDuino
 ============== 
 
 This tool helps to send/receive information for an Arduino device or parallels, using USB port(initially of course).
